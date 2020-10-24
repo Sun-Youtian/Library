@@ -1,0 +1,54 @@
+body{
+    background-image: url("../../static/img/new_login.jpg");
+    background-size: 100%;
+}
+.headline {
+    text-align: center;
+    letter-spacing: 20px;
+    font-size: 60px;
+}
+body{font-size: 12px; font-family: "宋体";}/*全局控制*/
+body,form,input,p{padding: 0; margin: 0; border: 0;}/*重置浏览器的默认样式*/
+form{
+    width: 550px;
+    height: 300px;
+    padding-top: 40px;
+    margin: 50px auto;
+    background: #f5f8fd;
+    border-radius: 20px;
+    border: 3px solid #4faccb;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    margin-top: 15px;
+    text-align: center;
+}
+p span{
+    width: 40px;
+    display: inline-block;
+    text-align: right;
+}
+.num,.pass{
+    width: 152px;
+    height: 25px;
+    border: 1px solid #38a1bf;
+    padding: 5px 5px 5px 40px;
+}
+.num{
+    background: url("../img/user_id.jpg") no-repeat 5px center #fff;
+    color:#999;
+}
+.pass{
+    background: url("../img/password.jpg") no-repeat 5px center #fff;
+}
+.btn{
+    width: 60px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #6b5d50;
+    margin-left: 30px;
+    background: #3bb7ea;
+}

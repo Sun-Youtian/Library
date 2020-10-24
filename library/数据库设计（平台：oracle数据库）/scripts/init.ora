@@ -1,0 +1,62 @@
+##############################################################################
+# Copyright (c) 1991, 2001, 2002 by Oracle Corporation
+##############################################################################
+ 
+###########################################
+# Shared Server
+###########################################
+dispatchers="(PROTOCOL=TCP) (SERVICE=libraryXDB)"
+ 
+###########################################
+# Miscellaneous
+###########################################
+compatible=11.2.0.0.0
+diagnostic_dest=F:\ProfessialApp\oracle
+memory_target=1680867328
+ 
+###########################################
+# Security and Auditing
+###########################################
+audit_file_dest=F:\ProfessialApp\oracle\admin\library\adump
+audit_trail=db
+remote_login_passwordfile=EXCLUSIVE
+ 
+###########################################
+# Database Identification
+###########################################
+db_domain=""
+db_name=library
+ 
+###########################################
+# File Configuration
+###########################################
+control_files=("F:\ProfessialApp\oracle\oradata\library\control01.ctl", "F:\ProfessialApp\oracle\flash_recovery_area\library\control02.ctl")
+db_recovery_file_dest=F:\ProfessialApp\oracle\flash_recovery_area
+db_recovery_file_dest_size=4102029312
+ 
+###########################################
+# Cursors and Library Cache
+###########################################
+open_cursors=300
+ 
+###########################################
+# System Managed Undo and Rollback Segments
+###########################################
+undo_tablespace=UNDOTBS1
+ 
+###########################################
+# Network Registration
+###########################################
+#local_listener=LISTENER_LIBRARY
+ 
+###########################################
+# Processes and Sessions
+###########################################
+processes=150
+ 
+###########################################
+# Cache and I/O
+###########################################
+db_block_size=8192
+ 
+ 
